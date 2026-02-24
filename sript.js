@@ -161,7 +161,7 @@
 // console.log(num + " x 9 = " + num * 9)
 // console.log(num + " x 10 = " + num * 10)
 
-// CHAPTER 6: MATH EXPRESSIONS
+// CHAPTER 6 to 8
 
 // Question # 1
 // var a = 10
@@ -194,16 +194,27 @@
 
 // Question # 5
 // var num = prompt("Enter a number", 5)
-// console.log("Table of " + num);
-// console.log(num + " x 1 = " + num * 1);
-// console.log(num + " x 2 = " + num * 2);
-// console.log(num + " x 3 = " + num * 3);
-// console.log(num + " x 4 = " + num * 4);
-// console.log(num + " x 5 = " + num * 5);
-// console.log(num + " x 6 = " + num * 6);
-// console.log(num + " x 7 = " + num * 7);
-// console.log(num + " x 8 = " + num * 8);
-// console.log(num + " x 9 = " + num * 9);
-// console.log(num + " x 10 = " + num * 10);
+// console.log("Table of " + num)
+// console.log(num + " x 1 = " + num * 1)
+// console.log(num + " x 2 = " + num * 2)
+// console.log(num + " x 3 = " + num * 3)
+// console.log(num + " x 4 = " + num * 4)
+// console.log(num + " x 5 = " + num * 5)
+// console.log(num + " x 6 = " + num * 6)
+// console.log(num + " x 7 = " + num * 7)
+// console.log(num + " x 8 = " + num * 8)
+// console.log(num + " x 9 = " + num * 9)
+// console.log(num + " x 10 = " + num * 10)
 
 // Question # 6
+// var subject1 = prompt("Enter name of subject 1", "English")
+// var obtaineMarks1 = prompt("Enter obtained marks for subject 1", 85)
+// var subject2 = prompt("Enter name of subject 2", "Computer")
+// var obtaineMarks2 = prompt("Enter obtained marks for subject 2", 80)
+// var subject3 = prompt("Enter name of subject 3", "Science")
+// var obtaineMarks3 = prompt("Enter obtained marks for subject 3", 70)
+// var totalMarks = 100
+// console.log("Subject", " ", "Total Marks", " ", "Obtained Marks", " ", "Percentge")
+// console.log(subject1, "     ", totalMarks, "           ", obtaineMarks1, "          ", obtaineMarks1 / totalMarks * 100 + "%")
+// console.log(subject2, "     ", totalMarks, "           ", obtaineMarks2, "          ", obtaineMarks2 / totalMarks * 100 + "%")
+// console.log(subject3, "     ", totalMarks, "           ", obtaineMarks3, "          ", obtaineMarks3 / totalMarks * 100 + "%")
