@@ -218,3 +218,157 @@
 // console.log(subject1, "     ", totalMarks, "           ", obtaineMarks1, "          ", obtaineMarks1 / totalMarks * 100 + "%")
 // console.log(subject2, "     ", totalMarks, "           ", obtaineMarks2, "          ", obtaineMarks2 / totalMarks * 100 + "%")
 // console.log(subject3, "     ", totalMarks, "           ", obtaineMarks3, "          ", obtaineMarks3 / totalMarks * 100 + "%")
+
+// CHAPTER 9 to 12
+
+// Question # 1
+// var city = prompt("Enter your City name")
+// if (city == "Karachi"){
+//     console.log("Welcome to city of lights!")
+// }
+
+// Question # 2
+// var userGender = prompt("Enter your gender")
+// if (userGender == "male") {
+//     console.log("Good Morning Sir")
+// } else {
+//     console.log("Good Morning Ma'am")
+// }
+
+// Question # 3
+// var trafficSignalColor = prompt("Enter traffic signal light color")
+// if (trafficSignalColor == "red") {
+//     console.log("Must Stop")
+// } else if (trafficSignalColor == "yellow") {
+//     console.log("Ready to move")
+// } else {
+//     console.log("Move now")
+// }
+
+// Question # 4
+// var remainingFuel = prompt("Please enter remaining fuel in car (litres)")
+// if (remainingFuel < 0.25) {
+//     console.log("Please refill the fuel in your car!")
+// }
+
+// Question # 5
+// A) var a = 4
+// if (++a === 5) {
+//     alert("given condition for variable a is true")  //Alert displayed
+// }
+
+// B) var b = 82
+// if (b++ === 83) {
+//     alert("given condition for variable b is true") //Alert not displayed
+// }
+
+// C) var c = 12
+// if (c++ === 13) {
+//     alert("condition 1 is true")
+// }
+// if (c === 13) {
+//     alert("condition 2 is true")  //Alert displayed
+// }
+// if (++c < 14) {
+//     alert("condition 3 is true")
+// }
+// if (c === 14) {
+//     alert("condition 4 is true")  //Alert displayed
+// }
+
+// D) var materialCost = 20000
+// var laborCost = 2000
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals")  //Alert displayed
+// }
+
+// E) if (true) {
+//     alert("True")
+// }
+// if (false) {
+//     alert("False");
+// }
+
+// F) if ("car" < "cat") {
+//     alert("car is smaller than cat");
+// }
+
+// Question # 6
+// var marksInEnglish = 80
+// var marksInComputer = 70
+// var marksInScience = 60
+// var totalMarks = 300
+// var markObtained = marksInEnglish + marksInComputer + marksInScience
+// var percentge = markObtained / totalMarks * 100
+// var grade;
+// var remarks;
+// console.log("Mark Sheet")
+// console.log("Total Marks:", totalMarks)
+// console.log("Marks Obtained:", markObtained)
+// console.log("Percentage:", percentge + "%")
+// if (percentge >= 80) {
+//     grade = "A-one"
+//     remarks = "Exellent"
+// } else if (percentge >= 70) {
+//     grade = "A"
+//     remarks = "Good"
+// } else if (percentge >= 60) {
+//     grade = "B"
+//     remarks = "You need to improve"
+// } else if (percentge < 60) {
+//     grade = "Fail"
+//     remarks = "Sorry"
+// }
+// console.log("Grade:", grade)
+// console.log("Remarks", remarks)
+
+// Question # 7
+// var secreatNumber = 7
+// var userNumber = prompt("Guess a number between 1 to 10")
+// if (secreatNumber == userNumber) {
+//     console.log("Bingo! Correct answer")    
+// } else {
+//     console.log("Close enough to the correct answer")    
+// }
+
+// Question # 8
+// var num = prompt("Enter a number")
+// if (num % 3 == 0) {
+//     console.log("The number is divisible by 3")
+// }
+
+// Question # 9
+// var num = prompt("Enter a number")
+// if (num % 2 == 0) {
+//     console.log("The number is even")
+// } else {
+//     console.log("The number is odd")
+// }
+
+// Question # 10
+// var temperature = 11
+// if (temperature > 40) {
+//     console.log("It is too hot outside")
+// } else if (temperature > 30) {
+//     console.log("The Weather today is Normal")
+// } else if (temperature > 20) {
+//     console.log("Today's Weather is cool")
+// } else if (temperature > 10) {
+//     console.log("OMG! Today's weather is so Cool")
+// }
+
+// var firstNumber = Number(prompt("Enter first number"))
+// var secondNumber = Number(prompt("Enter second number"))
+// var operator = prompt("Select the number of operation \n1) Addition (+) \n2) Subtraction (-) \n3) Multiplication (*) \n4) Division (/) \n5) Modulous (%)")
+// if (operator == 1) {
+//     console.log(firstNumber + secondNumber)
+// } else if (operator == 2) {
+//     console.log(firstNumber - secondNumber)
+// } else if (operator == 3) {
+//     console.log(firstNumber * secondNumber)
+// } else if (operator == 4) {
+//     console.log(firstNumber / secondNumber)
+// } else if (operator == 5) {
+//     console.log(firstNumber % secondNumber)
+// }
