@@ -54,12 +54,12 @@
 // alert("I am trying to learn from the Book " + book)
 
 // Question # 8
-// document.write("Yah! I can write HTML content through JavaScript")
+// console.log("Yah! I can write HTML content through JavaScript")
 
 // Question # 9
 // var design = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
 // alert(design)
-// document.write(design)
+// console.log(design)
 
 // CHAPTER 3: VARIABLES FOR NUMBERS
 
@@ -73,13 +73,13 @@
 
 // Question # 3
 // var birthYear = 2007
-// document.write("My birth year is " + birthYear + "<br>" + "Data type of my declared variable is number")
+// console.log("My birth year is " + birthYear + "Data type of my declared variable is number")
 
 // Question # 4
 // var visitorsName = "Shariq Ali"
 // var prodrctTitle = "T-shirt(s)"
 // var quantity = 5
-// document.write(visitorsName + " ordered " + quantity + " " + prodrctTitle + " on XYZ Clothing store.")
+// console.log(visitorsName + " ordered " + quantity + " " + prodrctTitle + " on XYZ Clothing store.")
 
 // CHAPTER 4: VARIABLE NAMES: LEGAL & ILLEGAL
 
@@ -102,11 +102,11 @@
 // var user.name
 
 // Question # 3
-// document.write("Rules for naming JS variables" + "<br>" + "<br>")
-// document.write("Variable names can only contain letters, numbers, $ and _. For example: $my_1stVariable" + "<br>")
-// document.write("Variables must begin with a letter, $ or _. For example: $name, _name or name" + "<br>")
-// document.write("Variable names are sensitive " + "<br>")
-// document.write("Variable names should not be JavaScript keywords" + "<br>")
+// console.log("Rules for naming JS variables")
+// console.log("Variable names can only contain letters, numbers, $ and _. For example: $my_1stVariable")
+// console.log("Variables must begin with a letter, $ or _. For example: $name, _name or name")
+// console.log("Variable names are sensitive ")
+// console.log("Variable names should not be JavaScript keywords")
 
 // CHAPTER 5: MATH EXPRESSIONS
 
@@ -114,7 +114,7 @@
 // var num1 = 3
 // var num2 = 5
 // var sum = num1 + num2
-// document.write("Sum of " + num1 + " and " + num2 + " is " + sum)
+// console.log("Sum of " + num1 + " and " + num2 + " is " + sum)
 
 // Question # 2
 // var num1 = 10
@@ -123,40 +123,87 @@
 // var mul = num1 * num2
 // var div = num1 / num2
 // var mod = num1 % num2
-// document.write("Subtraction of " + num1 + " and " + num2 + " is " + sub + "<br>")
-// document.write("Multiplication of " + num1 + " and " + num2 + " is " + mul + "<br>")
-// document.write("Division of " + num1 + " and " + num2 + " is " + div + "<br>")
-// document.write("Modulus of " + num1 + " and " + num2 + " is " + mod)
+// console.log("Subtraction of " + num1 + " and " + num2 + " is " + sub)
+// console.log("Multiplication of " + num1 + " and " + num2 + " is " + mul)
+// console.log("Division of " + num1 + " and " + num2 + " is " + div)
+// console.log("Modulus of " + num1 + " and " + num2 + " is " + mod)
 
 // Question # 3
 // var num
-// document.write("Value after variable declaration is: " + num + "<br>")
+// console.log("Value after variable declaration is: " + num)
 // num = 5
-// document.write("Initial value: " + num + "<br>")
+// console.log("Initial value: " + num)
 // num++
-// document.write("Value after increment is: " + num + "<br>")
+// console.log("Value after increment is: " + num)
 // num = num + 7
-// document.write("Value after addition is: " + num + "<br>")
+// console.log("Value after addition is: " + num)
 // num--
-// document.write("Value after decrement is: " + num + "<br>")
+// console.log("Value after decrement is: " + num)
 // num = num % 3
-// document.write("The remainder is: " + num)
+// console.log("The remainder is: " + num)
 
 // Question # 4
 // var ticketPrice = 600
 // var totalCost = ticketPrice * 5
-// document.write("Total cost to buy 5 tickets to a movie is " + totalCost + "PKR")
+// console.log("Total cost to buy 5 tickets to a movie is " + totalCost + "PKR")
 
 // Question # 5
 // var num = 4
-// document.write("Table of " + num + "<br><br>")
-// document.write(num + " x 1 = " + num * 1 + "<br>")
-// document.write(num + " x 2 = " + num * 2 + "<br>")
-// document.write(num + " x 3 = " + num * 3 + "<br>")
-// document.write(num + " x 4 = " + num * 4 + "<br>")
-// document.write(num + " x 5 = " + num * 5 + "<br>")
-// document.write(num + " x 6 = " + num * 6 + "<br>")
-// document.write(num + " x 7 = " + num * 7 + "<br>")
-// document.write(num + " x 8 = " + num * 8 + "<br>")
-// document.write(num + " x 9 = " + num * 9 + "<br>")
-// document.write(num + " x 10 = " + num * 10)
+// console.log("Table of " + num)
+// console.log(num + " x 1 = " + num * 1)
+// console.log(num + " x 2 = " + num * 2)
+// console.log(num + " x 3 = " + num * 3)
+// console.log(num + " x 4 = " + num * 4)
+// console.log(num + " x 5 = " + num * 5)
+// console.log(num + " x 6 = " + num * 6)
+// console.log(num + " x 7 = " + num * 7)
+// console.log(num + " x 8 = " + num * 8)
+// console.log(num + " x 9 = " + num * 9)
+// console.log(num + " x 10 = " + num * 10)
+
+// CHAPTER 6: MATH EXPRESSIONS
+
+// Question # 1
+// var a = 10
+// console.log("Results:")
+// console.log("The value of a is: " + a)
+// ++a
+// console.log("The value of ++a is: " + a)
+// ++a
+// console.log("Now the value of a is: " + a)
+// --a
+// console.log("Now the value of --a is: " + a)
+// console.log("Now the value of a is: " + a)
+// console.log("The value of a-- is: " + a)
+// a--
+// console.log("Now the value of a is: " + a)
+
+// Question # 2
+// var a = 2
+// var b = 1
+// var result = --a - --b + ++b + b-- 
+// console.log("a is " + a)
+// console.log("b is " + b)
+// console.log("result is " + result)
+
+// Question # 3
+// var userName = prompt("Enter your name")
+// alert("Hello " + userName + ", welcome to our website!")
+
+// Question # 4
+
+// Question # 5
+// var num = prompt("Enter a number", 5)
+// console.log("Table of " + num);
+// console.log(num + " x 1 = " + num * 1);
+// console.log(num + " x 2 = " + num * 2);
+// console.log(num + " x 3 = " + num * 3);
+// console.log(num + " x 4 = " + num * 4);
+// console.log(num + " x 5 = " + num * 5);
+// console.log(num + " x 6 = " + num * 6);
+// console.log(num + " x 7 = " + num * 7);
+// console.log(num + " x 8 = " + num * 8);
+// console.log(num + " x 9 = " + num * 9);
+// console.log(num + " x 10 = " + num * 10);
+
+// Question # 6
