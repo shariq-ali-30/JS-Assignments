@@ -358,6 +358,7 @@
 //     console.log("OMG! Today's weather is so Cool")
 // }
 
+// Question # 11
 // var firstNumber = Number(prompt("Enter first number"))
 // var secondNumber = Number(prompt("Enter second number"))
 // var operator = prompt("Select the number of operation \n1) Addition (+) \n2) Subtraction (-) \n3) Multiplication (*) \n4) Division (/) \n5) Modulous (%)")
@@ -371,4 +372,83 @@
 //     console.log(firstNumber / secondNumber)
 // } else if (operator == 5) {
 //     console.log(firstNumber % secondNumber)
+// }
+
+// CHAPTER 12 & 13
+
+// Question # 1
+// var characterInput = prompt("Enter a character")
+// var asciiCode = characterInput.charCodeAt()
+// if (asciiCode >= 48 && asciiCode <= 57) {
+//     console.log("It's a number")    
+// } else if (asciiCode >= 65 && asciiCode <= 90) {
+//     console.log("It's an Uppercase letter")
+// } else if (asciiCode >= 97 && asciiCode <= 122) {
+//     console.log("It's a Lowercase letter")
+// } else {
+//     console.log("Please enter a valid character")    
+
+// Question # 2
+// var num1 = 5
+// var num2 = 2
+// if (num1 > num2) {
+//     console.log(num1 + " is greater")    
+// } else {
+//     console.log(num2 + " is greater")    
+// }
+
+// Question # 3
+// var num = prompt("Enter a number")
+// if (num > 0) {
+//     console.log("Your number is positive")
+// } else if (num < 0) {
+//     console.log("Your number is negative")
+// } else if (num == 0) {
+//     console.log("Your number is 0")
+// } else {
+//     console.log("Please enter a valid number")
+// }
+
+// Question # 4
+// var character = prompt("Enter a character")
+// if (character.length > 1) {
+//     console.log("Please enter a single character")
+// } else if (character == "a" || character == "e" || character == "i" || character == "o" || character == "u") {
+//     console.log("Your character is vowel")
+// } else {
+//     console.log("Your character is not vowel")
+// }
+
+// Question # 5
+// var userPassword = prompt("Enter your password")
+// var correctPassword = "shariq123"
+// if (userPassword.length == 0) {
+//     console.log("Please enter a password")
+// } else if (userPassword == correctPassword) {
+//     console.log("“Correct! The password you entered matches the original password")
+// } else {
+//     console.log("Incorrect password")
+// }
+
+// Question # 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening";
+// }
+// console.log(greeting)
+
+// Question # 7
+// var time = prompt("Enter current time (e.g. 1900)", 1900)
+// if (time >= "0000" && time < 1200) {
+//     console.log("Good morning!")
+// } else if (time >= 1200 && time < 1700) {
+//     console.log("Good afternoon!")
+// } else if (time >= 1700 && time < 2100) {
+//     console.log("Good evening!")
+// } else if (time >= 2100 && time < 2359) {
+//     console.log("Good night!")
 // }
