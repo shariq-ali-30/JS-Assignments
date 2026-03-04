@@ -452,3 +452,84 @@
 // } else if (time >= 2100 && time < 2359) {
 //     console.log("Good night!")
 // }
+
+// CHAPTER 14 to 16
+
+// Question # 1
+// var studentNames = []
+// studentNames[0] = "Shariq"
+// studentNames[1] = "Hassan"
+// studentNames[2] = "Umair"
+// console.log(studentNames)
+
+// Quetion # 2
+// var studentNames = []
+// studentNames[0] = "Shariq"
+// studentNames[1] = "Hassan"
+// studentNames[2] = "Umair"
+// console.log(studentNames)
+
+// Question # 3
+// var fruits = ["Apple", "Mango", "Banana"]
+// console.log(fruits)
+
+// Question # 4
+// var numbers = [1, 2, 3]
+// console.log(numbers)
+
+// Question # 5
+// var boolean = [true, false]
+// console.log(boolean)
+
+// Question # 6
+// var mixedArr = ["Shariq", 1, true]
+// console.log(mixedArr)
+
+// Question # 7
+// var qualifiction = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"]
+// console.log("Qualifivation:")
+// console.log("1)", qualifiction[0])
+// console.log("2)", qualifiction[1])
+// console.log("3)", qualifiction[2])
+// console.log("4)", qualifiction[3])
+// console.log("5)", qualifiction[4])
+// console.log("6)", qualifiction[5])
+// console.log("7)", qualifiction[6])
+// console.log("8)", qualifiction[7])
+
+// Quetion # 8
+// var studentNames = ["Shariq", "Hassan", "Umair"]
+// var studentScores = [420, 230, 380]
+// var totalMarks = 500
+// console.log("Score of", studentNames[0], "is", studentScores[0] + ".", "Percentge:", studentScores[0] / totalMarks * 100 + "%")
+// console.log("Score of", studentNames[1], "is", studentScores[1] + ".", "Percentge:", studentScores[1] / totalMarks * 100 + "%")
+// console.log("Score of", studentNames[2], "is", studentScores[2] + ".", "Percentge:", studentScores[2] / totalMarks * 100 + "%")
+
+// Quuetion # 9
+// var colors = ["Red", "Green", "Blue"]
+// console.log(colors)
+
+// var colorToAddBeginning = prompt("Enter a color to add to the beginning", "Purple")
+// colors.unshift(colorToAddBeginning)
+// console.log(colors)
+
+// colors.unshift("Brown", "Orange")
+// console.log(colors)
+
+// colors.shift()
+// console.log(colors)
+
+// colors.pop()
+// console.log(colors)
+
+// var index = 2
+// var colorName = prompt("What color you wants to add?", "Gray")
+// colors.splice(index, 0, colorName)
+// console.log(colors)
+
+// var index = 2
+// var deleteCount = 1
+// colors.splice(index, deleteCount)
+// console.log(colors)
+
+// Question # 10
