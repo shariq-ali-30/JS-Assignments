@@ -533,3 +533,18 @@
 // console.log(colors)
 
 // Question # 10
+// var studentScores = [320, 230, 480, 120]
+// console.log("Scores of Studets:", studentScores)
+// var orderedStudentScore = studentScores.sort()
+// console.log("Ordered Scores of Student", orderedStudentScore)
+
+// Question # 11
+// var citiesList = ["Karaci", "Lahore", "Islamabad", "Quetta", "Peshawar"]
+// console.log("Cities List", citiesList)
+// var selectedCitiesList = citiesList.slice(2, 4)
+// console.log("Selected cities list", selectedCitiesList)
+
+// Quetion # 12
+// var arr = ["This", "is", "my", "cat"]
+// var joinArr = arr.join()
+// console.log(joinArr)
