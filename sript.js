@@ -548,3 +548,136 @@
 // var arr = ["This", "is", "my", "cat"]
 // var joinArr = arr.join()
 // console.log(joinArr)
+
+// Quetion # 13
+// var devices = []
+// devices.push("keyboard")
+// devices.push("mouse");
+// devices.push("printer");
+// devices.push("monitor");
+// console.log(devices[0])
+// console.log(devices[1])
+// console.log(devices[2])
+// console.log(devices[3])
+
+// Question # 14
+// var devices = []
+// devices.push("keyboard")
+// devices.push("mouse");
+// devices.push("printer");
+// devices.push("monitor");
+// console.log(devices[3])
+// console.log(devices[2])
+// console.log(devices[1])
+// console.log(devices[0])
+
+// Question # 15
+// var phones = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// console.log(phones[0]);
+// console.log(phones[1]);
+// console.log(phones[2]);
+// console.log(phones[3]);
+// console.log(phones[4]);
+// console.log(phones[5]);
+
+// CHAPTER 17 to 20
+
+// Question # 1
+// var arr = [[], [], []]
+
+// Question # 2
+// var arr = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1]
+// ]
+
+// Question # 3
+// for (let num = 1; num <= 10; num++) {
+//     console.log(num)
+// }
+
+// Question # 4
+// var tableNum = Number(prompt("Enter table Number", 5))
+// var tableLength = Number(prompt("Enter table length", 10))
+// for (let num = 1; num <= tableLength; num++) {
+//     console.log(tableNum, "X", num, "=", tableNum * num)
+// }
+
+// Question # 5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+// for (let indexNum = 0; indexNum < fruits.length; indexNum++) {
+//     console.log("Element at index", indexNum, "is", fruits[indexNum])
+// }
+
+// Question # 6
+// console.log("Counting")
+// for (let i = 1; i <= 15; i++) {
+//     console.log(i)    
+// }
+
+// console.log("Reverse Counting")
+// for (let i = 10; i >= 1 ; i--) {
+//     console.log(i)    
+// }
+
+// console.log("Even")
+// for (let i = 0; i <= 20 ; i+=2) {
+//     console.log(i)    
+// }
+
+// console.log("Odd")
+// for (let i = 1; i <= 20 ; i+=2) {
+//     console.log(i)    
+// }
+
+// console.log("Series")
+// for (let i = 2; i <= 20 ; i+=2) {
+//     console.log(i + "k")    
+// }
+
+// Question # 7
+// var a = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var userInput = prompt("What do you want to order?")
+// var found = false
+
+// for (let i = 0; i < a.length; i++) {
+//     if (a[i] === userInput) {
+//         console.log(userInput, "is avaiable at index", i, "in our bakery")
+//         found = true
+//         break;
+//     }
+// }
+
+// if (found == false) {
+//     console.log("We're sorry.", userInput, "is not available in our bakery")
+// }
+
+// Quetion # 8
+// var a = [24, 53, 78, 91, 12]
+// var largest = a[0]
+// console.log("Array items:", a)
+
+// for (let i = 1; i < a.length; i++) {
+//     if (a[i] > largest) {
+//         largest = a[i]
+//     }
+// }
+// console.log("The largest number is", largest)
+
+// Question # 9
+// var a = [24, 53, 78, 91, 12]
+// var smallest = a[0]
+// console.log("Array items:", a)
+
+// for (let i = 1; i < a.length; i++) {
+//     if (a[i] < smallest) {
+//         smallest = a[i]
+//     }
+// }
+// console.log("The smallest number is", smallest)
+
+// Question # 10
+// for (let i = 1; i <= 20; i++) {
+//     console.log(5 * i)
+// }
